@@ -11,7 +11,7 @@ To make changes to the code, follow the procedure:
 (Don't commit direct to the main, you can break the code for others)
 
 - Clone this repository on your computer  
-$   git clone https://github.com/luanviko/regina_preprocessing.git
+$   git clone https://github.com/luanviko/regina_preprocessing.git](https://github.com/HKRegina/preprocessing_wctebeam.git)
 
 - Create a new branch to accommodate your changes (Substitute Branch_Name as you wish)  
 $   git checkout -b Branch_Name  
