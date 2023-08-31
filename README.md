@@ -1,10 +1,12 @@
+# preprocessing_wctebeam
+
 This code is known to run with Python 3.10.12
 
 This code was originally forked from https://github.com/luanviko/regina_preprocessing
 
 The purpose of this code is to extract quantities from the waveforms in ROOT files
 
-### General Git Procedures
+## General Git Procedures
 
 To make changes to the code, follow the procedure:
 (Don't commit direct to the main, you can break the code for others)
@@ -24,7 +26,7 @@ $   git commit -m "Message explaining your changes"
 - Push your modifications to the online repository  
 $   git push --set-upstream origin Branch_Name  
 
-### Useful Git commands
+## Useful Git commands
 
 - Configure your Git  
 $   git config --global user.name "user_name"  
@@ -65,15 +67,17 @@ $   git push origin --delete Branch_Name
 
 Reference: Pro Git book - https://git-scm.com/book/en/v2
 
-### General Running Procedures
+## General Running Procedures
 
 - You will need to install following packages:
+  
 $   sudo apt install python3-pip
+
 $   pip3 install numpy matplotlib scipy uproot progressbar
 
  *** 
  
-# regina_preprocessing
+## regina_preprocessing
 
 (Any typo is on purpose)
 
@@ -85,7 +89,7 @@ Basic nomenclature:
 * **Rise time:** Linear portion of pulse, the distance between 10% to 90% of pulse amplitude.
 * **Pulse timing:** Sample where the pulse starts (CFD algorithm) or reaches max. amplitude (STT algorithm). 
 
-# CFD Timing Algorithm for Multi-Pulse Analysis
+## CFD Timing Algorithm for Multi-Pulse Analysis
 
 Explaining the plot:
 * **Blue crosses:** Start and end of rise time being considered for timing determination.
