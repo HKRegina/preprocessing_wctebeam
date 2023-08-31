@@ -5,7 +5,6 @@ This code was originally forked from https://github.com/luanviko/regina_preproce
 The purpose of this code is to extract quantities from the waveforms in ROOT files
 
 ### General Git Procedures
-(by Bruno)
 
 To make changes to the code, follow the procedure:
 (Don't commit direct to the main, you can break the code for others)
@@ -26,6 +25,7 @@ $   git commit -m "Message explaining your changes"
 $   git push --set-upstream origin Branch_Name  
 
 ### Useful Git commands
+
 - Configure your Git  
 $   git config --global user.name "user_name"  
 $   git config --global user.email "email_id"  
@@ -66,14 +66,14 @@ $   git push origin --delete Branch_Name
 Reference: Pro Git book - https://git-scm.com/book/en/v2
 
 ### General Running Procedures
-(by Bruno)
 
 - You will need to install following packages:
 $   sudo apt install python3-pip
 $   pip3 install numpy matplotlib scipy uproot progressbar
 
+ *** 
+ 
 # regina_preprocessing
-(by Luan)
 
 (Any typo is on purpose)
 
@@ -86,7 +86,6 @@ Basic nomenclature:
 * **Pulse timing:** Sample where the pulse starts (CFD algorithm) or reaches max. amplitude (STT algorithm). 
 
 # CFD Timing Algorithm for Multi-Pulse Analysis
-(by Luan)
 
 Explaining the plot:
 * **Blue crosses:** Start and end of rise time being considered for timing determination.
